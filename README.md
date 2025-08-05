@@ -12,6 +12,8 @@ We compare the accuracy of 5 different classifiers:
 4. Linear Discriminant Analysis
 5. K-nearest nieghbor
 
+The algorithm for performing multi-classification is as follows. After splitting the data into training and testing sets (using and 80/20 split), Xtrain, ytrain labels, Xtest, ytest labels, number of spatial modes, number of nearest neighbors to search, and number of folds for cross-validation are passed to a classification function. Then, we fit the chosen classifier to the train data. Next, we obtain the testing score based off the test subset data. Lastly, 5-fold cross validation is performed. We compare the mean accuracy and standard deviation from cross validation with the testing score we computed. A variation of this function exists for all classifiers. 
+
 ### Brain wave time series for one participant
 
 <img width="872" height="560" alt="Screenshot 2025-08-04 at 5 24 38 PM" src="https://github.com/user-attachments/assets/77ca91ec-632a-468e-927e-e64969b77bff" />
