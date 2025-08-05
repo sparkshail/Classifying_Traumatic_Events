@@ -18,6 +18,7 @@ The algorithm for performing multi-classification is as follows. After splitting
 
 <img width="872" height="560" alt="Screenshot 2025-08-04 at 5 24 38 PM" src="https://github.com/user-attachments/assets/77ca91ec-632a-468e-927e-e64969b77bff" />
 
+## Results
 
 ### Distribution of events for the test set (left) and train set (right) 
 <img width="619" height="234" alt="Screenshot 2025-08-04 at 5 18 58 PM" src="https://github.com/user-attachments/assets/31d71bde-5a45-45bd-b1c5-0da1e3ca718a" />
