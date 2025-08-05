@@ -28,3 +28,6 @@ We compare the accuracy of 5 different classifiers:
 
 ### Classification Model Comparison
 <img width="728" height="660" alt="Screenshot 2025-08-04 at 5 17 29 PM" src="https://github.com/user-attachments/assets/58f7d694-ab76-45ee-a43d-dd6a84f672ab" />
+
+## Conclusions
+Using PCA, we were able to drastically reduce the size of our data while still maintaining high classification accuracy. While our classification restraint is naive, the baseline method does provide promising results. Some models show possible signs of overfitting (KNN), but not every model is reaching near perfect accuracy (Ridge and LDA). We determine that the optimal model is either the MLP Classifier with Adam Optimization or SVD. Both models were successful in predicting traumatic events while maintaining little error.
